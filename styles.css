@@ -4,15 +4,58 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
 header {
     background-color: #333;
     color: #fff;
     padding: 1em 0;
     text-align: center;
 }
+
 section {
     padding: 2em;
 }
-.project {
+
+#skills ul,
+#certifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li,
+#certifications li {
+    background: #eee;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.project, .job, .education {
     margin-bottom: 1em;
 }
+
+.project a, .job a, .education a {
+    display: inline-block;
+    margin-top: 0.5em;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.project a:hover, .job a:hover, .education a:hover {
+    text-decoration: underline;
+}
+
+.job ul {
+    list-style-type: disc;
+    padding-left: 1em;
+}
+
+.contact a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
