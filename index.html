@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Padmaja Ramesh's Resume</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
+    <div class="container header">
+        <h1>Padmaja Ramesh</h1>
+        <p>Atlanta, GA | padmajaramesh1205@gmail.com | (715) 559 6225</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/padmaja-ramesh">linkedin.com/in/padmaja-ramesh</a> | GitHub: <a href="https://github.com/padmaja125">github.com/padmaja125</a></p>
+    </div>
     <div class="nav">
         <a href="#career-summary">Career Summary</a>
         <a href="#professional-experience">Professional Experience</a>
         <a href="#volunteer-experience">Volunteer Experience</a>
         <a href="#education-certifications">Education & Certifications</a>
-    </div>
-    <div class="container header">
-        <h1>Padmaja Ramesh</h1>
-        <p>Atlanta, GA | padmajaramesh1205@gmail.com | (715) 559 6225</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/padmaja-ramesh">linkedin.com/in/padmaja-ramesh</a> | GitHub: <a href="https://github.com/padmaja125">github.com/padmaja125</a></p>
     </div>
 
     <div class="container" id="career-summary">
@@ -30,31 +31,60 @@
 
     <div class="container" id="professional-experience">
         <div class="section-title">PROFESSIONAL EXPERIENCE</div>
-
         <div class="content">
-            As a contractor for <strong>USAA</strong> through TekSystems, I worked remotely as a Junior Software Developer from September 2022 to February 2023. In this role, I played a key part in stabilizing a Java Gradle-based application, improving its database-mainframe connections, which significantly boosted our release efficiency through CI/CD automation using GitLab. My close collaboration with testers and senior developers ensured the seamless functionality of our applications, while my work on managing software testing and bug tracking reduced issue resolution time by 20%. Utilizing Selenium for automated testing and the REST framework for API testing, I conducted comprehensive manual and automated tests to ensure our applications met the highest performance standards.
-        </div>
-
-        <div class="content">
-            During my time as a contractor for <strong>Vanguard</strong> through Nzyme.Inc from August 2021 to September 2022, I served as a Full Stack Developer. In this position, I updated dynamic and responsive web applications using JavaScript and Vue.js, adhering to the MVC architecture pattern. My work included integrating the ag-Grid-Vue component and the Plotly library for enhanced data visualization. Effective code change management was achieved through the use of Git and BitBucket. I also analyzed user interface and experience requirements to ensure our software solutions aligned with business needs. Extensive manual testing on these dynamic web applications ensured adherence to quality standards.
-        </div>
-
-        <div class="content">
-            At <strong>IBM</strong>, where I worked as a contractor through Pythonwise from April 2021 to June 2021, I served as a Software Developer. In this role, I realigned requirements and assessed feasibility, selecting appropriate technologies for enhancements. My responsibilities included implementing Continuous Integration with Jenkins to streamline build processes, and managing local Kubernetes deployments to optimize application performance in containers. I executed test cases and scenarios to validate software functionality, identifying and documenting defects for resolution.
+            <div class="experience-slider">
+                <div class="slide-wrapper">
+                    <div class="experience-content show">
+                        <div class="section-title">USAA Contractor (TekSystems)</div>
+                        <div class="content">
+                            As a contractor for <strong>USAA</strong> through TekSystems, I worked remotely as a Junior Software Developer from September 2022 to February 2023. In this role, I played a key part in stabilizing a Java Gradle-based application, improving its database-mainframe connections, which significantly boosted our release efficiency through CI/CD automation using GitLab. My close collaboration with testers and senior developers ensured the seamless functionality of our applications, while my work on managing software testing and bug tracking reduced issue resolution time by 20%. Utilizing Selenium for automated testing and the REST framework for API testing, I conducted comprehensive manual and automated tests to ensure our applications met the highest performance standards.
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="section-title">Vanguard Contractor (Nzyme.Inc)</div>
+                        <div class="content">
+                            During my time as a contractor for <strong>Vanguard</strong> through Nzyme.Inc from August 2021 to September 2022, I served as a Full Stack Developer. In this position, I updated dynamic and responsive web applications using JavaScript and Vue.js, adhering to the MVC architecture pattern. My work included integrating the ag-Grid-Vue component and the Plotly library for enhanced data visualization. Effective code change management was achieved through the use of Git and BitBucket. I also analyzed user interface and experience requirements to ensure our software solutions aligned with business needs. Extensive manual testing on these dynamic web applications ensured adherence to quality standards.
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="section-title">IBM Contractor (Pythonwise)</div>
+                        <div class="content">
+                            At <strong>IBM</strong>, where I worked as a contractor through Pythonwise from April 2021 to June 2021, I served as a Software Developer. In this role, I realigned requirements and assessed feasibility, selecting appropriate technologies for enhancements. My responsibilities included implementing Continuous Integration with Jenkins to streamline build processes, and managing local Kubernetes deployments to optimize application performance in containers. I executed test cases and scenarios to validate software functionality, identifying and documenting defects for resolution.
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow left-arrow" onclick="toggleSlide('experience-slider', 'left')">&lt;</div>
+                <div class="arrow right-arrow" onclick="toggleSlide('experience-slider', 'right')">&gt;</div>
+            </div>
         </div>
     </div>
 
     <div class="container" id="volunteer-experience">
         <div class="section-title">VOLUNTEER EXPERIENCE</div>
-
         <div class="content">
-            In my role as a Meta-Analyst and Data Web Scraper at <strong>Crowd Doing</strong> from May 2020 to March 2021, I selected critical data annotations to improve model performance and collaborated with team members to ensure dataset quality. I re-engineered web scraper tools to efficiently collect data for analysis and utilized K-Means clustering to determine customer satisfaction and preferences for recommendation systems. My enhancements to reporting systems using GitLab and Trello, along with developing data processing modules with Beautiful Soup, played a crucial role in product feature analysis and customer targeting.
-        </div>
-
-        <div class="content">
-            As a <strong>Community Language Teacher</strong> at North Hills Pittsburgh Tamil School from 2020 to 2022, I utilized platforms such as Google Meet, Google Calendar, Google Classroom, Canva, and Kahoot to conduct online classes. My role involved creating interactive lessons and activities to engage children in learning the Tamil language.
+            <div class="volunteer-slider">
+                <div class="slide-wrapper">
+                    <div class="experience-content show">
+                        <div class="section-title">Crowd Doing</div>
+                        <div class="content">
+                            In my role as a Meta-Analyst and Data Web Scraper at <strong>Crowd Doing</strong> from May 2020 to March 2021, I selected critical data annotations to improve model performance and collaborated with team members to ensure dataset quality. I re-engineered web scraper tools to efficiently collect data for analysis and utilized K-Means clustering to determine customer satisfaction and preferences for recommendation systems. My enhancements to reporting systems using GitLab and Trello, along with developing data processing modules with Beautiful Soup, played a crucial role in product feature analysis and customer targeting.
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="section-title">Community Language Teacher</div>
+                        <div class="content">
+                            As a <strong>Community Language Teacher</strong> at North Hills Pittsburgh Tamil School from 2020 to 2022, I utilized platforms such as Google Meet, Google Calendar, Google Classroom, Canva, and Kahoot to conduct online classes. My role involved creating interactive lessons and activities to engage children in learning the Tamil language.
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow left-arrow" onclick="toggleSlide('volunteer-slider', 'left')">&lt;</div>
+                <div class="arrow right-arrow" onclick="toggleSlide('volunteer-slider', 'right')">&gt;</div>
+            </div>
         </div>
     </div>
+    
+    
+
     <div class="container" id="education-certifications">
         <div class="section-title">EDUCATION & CERTIFICATIONS</div>
 
@@ -77,5 +107,31 @@
         </div>
     </div>
 
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+
+        function toggleSlide(section, direction) {
+            const slideWrapper = document.querySelector(`.${section} .slide-wrapper`);
+            const contentItems = slideWrapper.querySelectorAll('.experience-content');
+            const currentPosition = Array.from(contentItems).findIndex(item => item.classList.contains('show'));
+
+            let newIndex;
+            if (direction === 'left') {
+                newIndex = currentPosition === 0 ? contentItems.length - 1 : currentPosition - 1;
+            } else {
+                newIndex = currentPosition === contentItems.length - 1 ? 0 : currentPosition + 1;
+            }
+
+            contentItems.forEach(item => item.classList.remove('show'));
+            contentItems[newIndex].classList.add('show');
+        }
+    </script>
 </body>
 </html>
