@@ -130,3 +130,18 @@ a:hover {
 #theme-text {
     font-weight: bold;
 }
+
+.dataset-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+.dataset-links li {
+    margin: 5px 0;
+}
+.dataset-links a {
+    color: blue;
+    text-decoration: none;
+}
+.dataset-links a:hover {
+    text-decoration: underline;
+}
